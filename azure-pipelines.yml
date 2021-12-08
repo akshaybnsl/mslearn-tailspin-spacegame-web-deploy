@@ -78,7 +78,7 @@ stages:
   jobs:
   - deployment: Deploy
     pool:
-      name:MyPool
+      name: MyPool
     environment: dev
     variables:
     - group: Release
